@@ -1,0 +1,18 @@
+keypad_callback.o: keypad_callback.c ../../inc/mxphio/mxkeypad.h \
+  ../../inc/mxphio/keypad_callback.h ../../inc/mxphio/os-support.h \
+  ../../inc/mxphio/mxkeypad.h
+keypad_lcm.o: keypad_lcm.c ../../inc/mxphio/keypad_lcm.h \
+  ../../inc/mxphio/keypad_callback.h ../../inc/mxphio/os-support.h \
+  ../../inc/mxphio/mxkeypad.h ../../inc/mxphio/mxlcm.h
+mserial_port_lx.o: mserial_port_lx.c ../../inc/mxphio/mserial_port.h \
+  ../../inc/mxphio/os-support.h
+mxbuzzer_lx.o: mxbuzzer_lx.c
+mxdgio_lx.o: mxdgio_lx.c
+mxgpio_lx.o: mxgpio_lx.c
+mxkeypad_lx.o: mxkeypad_lx.c
+mxlcm_lx.o: mxlcm_lx.c ../../inc/mxphio/mxlcm.h
+mxrtc_lx.o: mxrtc_lx.c
+mxwdg_lx.o: mxwdg_lx.c ../../inc/mxphio/mxwdg.h
+netiface_lx.o: netiface_lx.c ../../inc/mxphio/netiface.h
+network.o: network.c ../../inc/mxphio/network.h \
+  ../../inc/mxphio/os-support.h
